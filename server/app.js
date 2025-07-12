@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const guardarEnExcel = require("./excel-handler");
 const fs = require("fs");
-
+const reiniciarExcel = require("./reiniciar-excel");
 const app = express();
 
 // 🧱 Middleware base
@@ -48,8 +48,13 @@ app.get("/descargar", (req, res) => {
     res.status(404).send("Archivo no encontrado");
   }
 });
+app.get("/reiniciar", (req, res) => {
+  reiniciarExcel();
+  res.send("✅ Excel vaciado");
+});
 
-// 🚀 Iniciar servidor en puerto dinámico
+
+// Iniciar servidor en puerto dinámico
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`✅ Servidor activo en el puerto ${PORT}`);
