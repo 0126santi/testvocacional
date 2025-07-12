@@ -11,8 +11,12 @@ formUsuario.addEventListener("submit", function (e) {
   e.preventDefault();
 
   datosEstudiante.nombre = document.querySelector("input[name='nombre']").value;
+  datosEstudiante.apellido = document.querySelector("input[name='apellido']").value;
+  datosEstudiante.edad = document.querySelector("input[name='edad']").value;
   datosEstudiante.cedula = document.querySelector("input[name='cedula']").value;
   datosEstudiante.curso = document.querySelector("input[name='curso']").value;
+  datosEstudiante.unidad = document.querySelector("input[name='unidad']").value;
+
 
   formUsuario.style.display = "none";
   formTest.style.display = "block";
@@ -74,11 +78,18 @@ formTest.addEventListener("submit", async function (e) {
     .filter((el) => el.checked)
     .map((el) => el.value);
 
+  const totalPreguntas = respuestas.length;
+
   const conteo = {};
   respuestas.forEach((r) => {
     conteo[r] = (conteo[r] || 0) + 1;
   });
-  const mayor = Object.entries(conteo).sort((a, b) => b[1] - a[1])[0][0];
+
+  // Ordenar conteos por frecuencia
+  const ordenado = Object.entries(conteo).sort((a, b) => b[1] - a[1]);
+
+  const [opcion1, cantidad1] = ordenado[0];
+  const [opcion2, cantidad2] = ordenado[1] || ["-", 0]; // Por si no hay segunda
 
   const resultado = {
     a: "Ingeniería",
@@ -86,11 +97,27 @@ formTest.addEventListener("submit", async function (e) {
     c: "Educación",
     d: "Derecho o Ciencias Sociales con énfasis en políticas",
     e: "Derecho o Ciencias Sociales con énfasis en investigación",
-  }[mayor];
+  }[opcion1];
+
+  const porcentajePrincipal = ((cantidad1 / totalPreguntas) * 100).toFixed(1) + "%";
+
+  const resultadoSecundario = {
+    a: "Ingeniería",
+    b: "Medicina/Ciencias de la Salud",
+    c: "Educación",
+    d: "Derecho o Ciencias Sociales con énfasis en políticas",
+    e: "Derecho o Ciencias Sociales con énfasis en investigación",
+  }[opcion2] || "Sin segundo resultado";
+
+  const porcentajeSecundario = ((cantidad2 / totalPreguntas) * 100).toFixed(1) + "%";
+
 
   // Guardar en localStorage 
-  localStorage.setItem("resultadoFinal", resultado);
-  localStorage.setItem("nombreEstudiante", datosEstudiante.nombre);
+  localStorage.setItem("resultadoPorcentaje", porcentajePrincipal);
+  localStorage.setItem("resultadoSecundario", resultadoSecundario);
+  localStorage.setItem("porcentajeSecundario", porcentajeSecundario);
+
+
 
   // Enviar datos al backend para guardarlos en Excel
   await fetch("/api/guardar", {
@@ -98,12 +125,16 @@ formTest.addEventListener("submit", async function (e) {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       nombre: datosEstudiante.nombre,
+      apellido: datosEstudiante.apellido,
+      edad: datosEstudiante.edad,
       cedula: datosEstudiante.cedula,
       curso: datosEstudiante.curso,
-      resultado
+      unidad: datosEstudiante.unidad,
+      resultado,
+      porcentaje: porcentajePrincipal,
+      resultadoSecundario
     })
   });
-
   // Redirigir después de guardar
   window.location.href = "resultado.html";
 });

@@ -12,13 +12,25 @@ module.exports = function (data) {
     workbook = xlsx.readFile(file);
     hoja = workbook.Sheets[workbook.SheetNames[0]];
   } else {
-    hoja = xlsx.utils.aoa_to_sheet([["Nombre", "Cédula", "Curso", "Resultado"]]);
+    hoja = xlsx.utils.aoa_to_sheet([
+  ["Nombre", "Apellido", "Edad", "Cédula", "Curso", "Unidad Educativa", "Resultado Principal", "Porcentaje", "Resultado Secundario"]
+]);
     workbook = xlsx.utils.book_new();
     workbook.SheetNames.push("Respuestas");
   }
 
   // Añadir nueva fila
-  const nuevaFila = [[data.nombre, data.cedula, data.curso, data.resultado]];
+  const nuevaFila = [[
+    data.nombre,
+    data.apellido,
+    data.edad,
+    data.cedula,
+    data.curso,
+    data.unidad,
+    data.resultado,
+    data.porcentaje,
+    data.resultadoSecundario
+  ]];
   xlsx.utils.sheet_add_aoa(hoja, nuevaFila, { origin: -1 });
 
   // Asegurar que la hoja esté correctamente referenciada
