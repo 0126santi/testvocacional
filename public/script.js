@@ -22,20 +22,21 @@ formUsuario.addEventListener("submit", function (e) {
     .then((res) => res.json())
     .then((preguntas) => {
       const secciones = [
-        { inicio: 1, fin: 10, titulo: "Intereses Generales y Estilo de Aprendizaje " },
+        { inicio: 1, fin: 10, titulo: "Intereses Generales y Estilo de Aprendizaje" },
         { inicio: 11, fin: 25, titulo: "Aptitudes para Ingeniería" },
-        { inicio: 26, fin: 40, titulo: "Aptitudes para Medicina y Ciencias de la Salud " },
+        { inicio: 26, fin: 40, titulo: "Aptitudes para Medicina y Ciencias de la Salud" },
         { inicio: 41, fin: 55, titulo: "Aptitudes para Educación" },
         { inicio: 56, fin: 70, titulo: "Aptitudes para Derecho" },
         { inicio: 71, fin: 85, titulo: "Aptitudes para Ciencias Sociales" },
         { inicio: 86, fin: 100, titulo: "Preferencias Académicas y Futuras" }
       ];
-      console.log("Preguntas cargadas:", preguntas);
+
+      contenedorPreguntas.innerHTML = ""; // 💡 Limpia cualquier contenido anterior
+
       preguntas.forEach((p, i) => {
-        preguntas.forEach((p, i) => {
         const preguntaId = p.id;
 
-        // Buscar si esta pregunta abre una nueva sección
+        // Agregar subtítulo si empieza una nueva sección
         const seccion = secciones.find(s => s.inicio === preguntaId);
         if (seccion) {
           const encabezado = document.createElement("h3");
@@ -57,20 +58,8 @@ formUsuario.addEventListener("submit", function (e) {
         });
         contenedorPreguntas.appendChild(div);
       });
-        const div = document.createElement("div");
-        div.classList.add("pregunta-bloque");
-        div.innerHTML = `<label><strong>${p.id}.</strong> ${p.pregunta}</label><br>`;
-        Object.entries(p.opciones).forEach(([clave, texto]) => {
-          div.innerHTML += `
-            <label>
-              <input type="radio" name="pregunta${i}" value="${clave}" required />
-              ${clave}) ${texto}
-            </label><br>
-          `;
-        });
-        contenedorPreguntas.appendChild(div);
-      });
     })
+
     .catch((error) => {
       contenedorPreguntas.innerHTML = `<p style="color:red;">No se pudieron cargar las preguntas. Verifica el archivo preguntas.json</p>`;
       console.error("Error al cargar preguntas:", error);
