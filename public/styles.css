@@ -105,31 +105,47 @@ form#form-usuario {
   max-width: 380px;
   width: 100%;
   box-sizing: border-box;
+  text-align: center;
 }
+
 
 /* Responsive para móviles */
 @media screen and (max-width: 480px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: block !important;
+    background: #ffffffff;
+  }
+
   form#form-usuario {
-    padding: 24px;
-    margin: 16px;
+    max-width: 90% !important;
+    width: 100% !important;
+    margin: 20px auto !important;
+    padding: 20px !important;
+    box-sizing: border-box;
+    text-align: center;
   }
 
-  input[type="text"] {
+  form#form-usuario input[type="text"] {
     font-size: 16px;
     padding: 12px;
-  }
-
-  button {
-    font-size: 16px;
-    padding: 12px;
+    margin-bottom: 16px;
     width: 100%;
+    box-sizing: border-box;
+  }
+
+  form#form-usuario button {
+    font-size: 16px;
+    padding: 14px;
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
   }
 
   h2 {
     font-size: 1.4rem;
     margin-bottom: 20px;
-    text-align: center;
   }
 }
-
-
