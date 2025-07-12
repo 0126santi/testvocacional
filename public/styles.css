@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f4f8;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+form, .resultado-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+input[type="text"], input[type="radio"] {
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Bloque general para cada pregunta */
+.pregunta-bloque {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9fcff;
+}
+
+/* Título de la pregunta */
+.pregunta-bloque label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Opciones de respuesta */
+.pregunta-bloque input[type="radio"] {
+  margin-right: 8px;
+}
+
+.pregunta-bloque label > input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  margin-bottom: 8px;
+}
+
+/* Ajustes generales */
+input[type="text"] {
+  width: 100%;
+}
+
+#contenedor-preguntas {
+  margin-top: 20px;
+}
+
