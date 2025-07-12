@@ -9,10 +9,10 @@ const app = express();
 // 🧱 Middleware base
 app.use(bodyParser.json());
 
-// 🧾 Ruta raíz para evitar 502 Bad Gateway en Railway
 app.get("/", (req, res) => {
-  res.send("✅ Test Vocacional UC backend activo");
+  res.sendFile(path.join(__dirname, "../public/index.html"));
 });
+
 
 // 🌐 Servir frontend estático desde /public
 app.use(express.static(path.join(__dirname, "../public")));
