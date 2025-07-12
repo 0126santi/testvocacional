@@ -1,3 +1,4 @@
+/* Contenedor principal flexible */
 body {
   font-family: Arial, sans-serif;
   background: #f2f4f8;
@@ -5,8 +6,10 @@ body {
   padding: 20px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
+/* Contenedor del formulario o resultado */
 form, .resultado-container {
   background: white;
   padding: 30px;
@@ -14,16 +17,20 @@ form, .resultado-container {
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
   max-width: 600px;
   width: 100%;
+  box-sizing: border-box;
 }
 
+/* Campos */
 input[type="text"], input[type="radio"] {
   margin: 10px 0;
   padding: 8px;
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 6px;
+  box-sizing: border-box;
 }
 
+/* Botón */
 button {
   background: #007bff;
   color: white;
@@ -32,13 +39,15 @@ button {
   border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
+  width: 100%;
+  max-width: 300px;
 }
 
 button:hover {
   background: #0056b3;
 }
 
-/* Bloque general para cada pregunta */
+/* Bloques de preguntas */
 .pregunta-bloque {
   margin-bottom: 30px;
   padding: 15px;
@@ -47,14 +56,15 @@ button:hover {
   background-color: #f9fcff;
 }
 
-/* Título de la pregunta */
+/* Texto de cada pregunta */
 .pregunta-bloque label {
   display: block;
   font-weight: bold;
   margin-bottom: 10px;
+  font-size: 1rem;
 }
 
-/* Opciones de respuesta */
+/* Radios alineados */
 .pregunta-bloque input[type="radio"] {
   margin-right: 8px;
 }
@@ -65,12 +75,28 @@ button:hover {
   margin-bottom: 8px;
 }
 
-/* Ajustes generales */
-input[type="text"] {
-  width: 100%;
-}
-
+/* Contenedor de preguntas */
 #contenedor-preguntas {
   margin-top: 20px;
+}
+
+/* 🧠 Responsive para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  form, .resultado-container {
+    padding: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+
+  .pregunta-bloque label {
+    font-size: 0.95rem;
+  }
 }
 
