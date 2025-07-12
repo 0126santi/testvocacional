@@ -6,7 +6,7 @@ const fs = require("fs");
 const reiniciarExcel = require("./reiniciar-excel");
 const app = express();
 
-// 🧱 Middleware base
+// Middleware base
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
@@ -14,13 +14,13 @@ app.get("/", (req, res) => {
 });
 
 
-// 🌐 Servir frontend estático desde /public
+// Servir frontend estático desde /public
 app.use(express.static(path.join(__dirname, "../public")));
 
-// 📦 Servir contenido JSON desde /data si existe
+// Servir contenido JSON desde /data si existe
 app.use("/data", express.static(path.join(__dirname, "../public/data")));
 
-// 📝 Recibir respuestas y guardar en Excel
+// Recibir respuestas y guardar en Excel
 app.post("/api/guardar", (req, res) => {
   const datos = req.body;
   console.log("📥 Respuesta recibida:", datos);
@@ -35,7 +35,7 @@ app.post("/api/guardar", (req, res) => {
   }
 });
 
-// 📤 Ruta pública para descargar el Excel
+// Ruta pública para descargar el Excel
 app.get("/descargar", (req, res) => {
   const ruta = path.join(__dirname, "../resultados.xlsx");
 

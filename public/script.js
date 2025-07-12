@@ -21,8 +21,42 @@ formUsuario.addEventListener("submit", function (e) {
   fetch("/data/preguntas.json")
     .then((res) => res.json())
     .then((preguntas) => {
+      const secciones = [
+        { inicio: 1, fin: 10, titulo: "Intereses Generales y Estilo de Aprendizaje " },
+        { inicio: 11, fin: 25, titulo: "Aptitudes para Ingeniería" },
+        { inicio: 26, fin: 40, titulo: "Aptitudes para Medicina y Ciencias de la Salud " },
+        { inicio: 41, fin: 55, titulo: "Aptitudes para Educación" },
+        { inicio: 56, fin: 70, titulo: "Aptitudes para Derecho" },
+        { inicio: 71, fin: 85, titulo: "Aptitudes para Ciencias Sociales" },
+        { inicio: 86, fin: 100, titulo: "Preferencias Académicas y Futuras" }
+      ];
       console.log("Preguntas cargadas:", preguntas);
       preguntas.forEach((p, i) => {
+        preguntas.forEach((p, i) => {
+        const preguntaId = p.id;
+
+        // Buscar si esta pregunta abre una nueva sección
+        const seccion = secciones.find(s => s.inicio === preguntaId);
+        if (seccion) {
+          const encabezado = document.createElement("h3");
+          encabezado.classList.add("seccion-subtitulo");
+          encabezado.textContent = seccion.titulo;
+          contenedorPreguntas.appendChild(encabezado);
+        }
+
+        const div = document.createElement("div");
+        div.classList.add("pregunta-bloque");
+        div.innerHTML = `<label><strong>${preguntaId}.</strong> ${p.pregunta}</label><br>`;
+        Object.entries(p.opciones).forEach(([clave, texto]) => {
+          div.innerHTML += `
+            <label>
+              <input type="radio" name="pregunta${i}" value="${clave}" required />
+              ${clave}) ${texto}
+            </label><br>
+          `;
+        });
+        contenedorPreguntas.appendChild(div);
+      });
         const div = document.createElement("div");
         div.classList.add("pregunta-bloque");
         div.innerHTML = `<label><strong>${p.id}.</strong> ${p.pregunta}</label><br>`;
@@ -65,11 +99,11 @@ formTest.addEventListener("submit", async function (e) {
     e: "Derecho o Ciencias Sociales con énfasis en investigación",
   }[mayor];
 
-  // Guardar en localStorage (si quieres seguir usando)
+  // Guardar en localStorage 
   localStorage.setItem("resultadoFinal", resultado);
   localStorage.setItem("nombreEstudiante", datosEstudiante.nombre);
 
-  // ✅ Enviar datos al backend para guardarlos en Excel
+  // Enviar datos al backend para guardarlos en Excel
   await fetch("/api/guardar", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
