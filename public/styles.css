@@ -103,6 +103,25 @@ form#form-usuario {
   text-align: center;
 }
 
+#encabezado-sectel {
+  color: #333;
+  width: 100vw;
+  margin: 0;
+  padding: 16px 0;
+  text-align: center;
+}
+
+#encabezado-sectel h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+#encabezado-sectel p {
+  font-size: 1rem;
+  color: #555;
+}
+
+
 
 /* Responsive para móviles */
 @media screen and (max-width: 800px) {
