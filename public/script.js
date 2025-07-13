@@ -116,6 +116,8 @@ formTest.addEventListener("submit", async function (e) {
   localStorage.setItem("resultadoPorcentaje", porcentajePrincipal);
   localStorage.setItem("resultadoSecundario", resultadoSecundario);
   localStorage.setItem("porcentajeSecundario", porcentajeSecundario);
+  localStorage.setItem("nombreEstudiante", datosEstudiante.nombre + " " + datosEstudiante.apellido);
+  localStorage.setItem("resultadoFinal", resultado);
 
 
 

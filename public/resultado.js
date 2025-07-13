@@ -12,4 +12,6 @@ window.addEventListener("DOMContentLoaded", () => {
     : "Sin resultado disponible.";
 
   document.getElementById("secundario").textContent = `Segunda inclinación detectada: ${segundo} (${porcentajeSecundario})`;
+  console.log("Nombre:", nombre);
+  console.log("Resultado:", resultado);
 });
