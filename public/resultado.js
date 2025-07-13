@@ -11,5 +11,5 @@ window.addEventListener("DOMContentLoaded", () => {
     ? `${resultado} (${porcentaje})`
     : "Sin resultado disponible.";
 
-  document.getElementById("secundario").textContent = `🔎 Segunda inclinación detectada: ${segundo} (${porcentajeSecundario})`;
+  document.getElementById("secundario").textContent = `Segunda inclinación detectada: ${segundo} (${porcentajeSecundario})`;
 });
