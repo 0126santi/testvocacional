@@ -11,7 +11,13 @@ window.addEventListener("DOMContentLoaded", () => {
     ? `${resultado} (${porcentaje})`
     : "Sin resultado disponible.";
 
-  document.getElementById("secundario").textContent = `Segunda inclinación detectada: ${segundo} (${porcentajeSecundario})`;
+  //document.getElementById("secundario").textContent = `Segunda inclinación detectada: ${segundo} (${porcentajeSecundario})`;
+  document.getElementById("secundario").innerHTML = `
+    <hr style="margin-top:20px; margin-bottom:12px; border: none; border-top: 1px solid #ccc;">
+    <span style="display:block;">Segunda inclinación detectada:</span>
+    <br>
+    <span style="display:block;">${segundo} (${porcentajeSecundario})</span>
+  `;
   console.log("Nombre:", nombre);
   console.log("Resultado:", resultado);
 });

@@ -13,8 +13,8 @@ module.exports = function (data) {
     hoja = workbook.Sheets[workbook.SheetNames[0]];
   } else {
     hoja = xlsx.utils.aoa_to_sheet([
-    ["Nombre", "Apellido", "Edad", "Cédula", "Curso", "Unidad Educativa", "Resultado Principal", "Porcentaje Principal", "Resultado Secundario", "Porcentaje Secundario"]
-  ]);
+      ["Nombre", "Apellido", "Cédula", "Edad", "Unidad Educativa", "Curso", "Sección", "Resultado Principal", "Porcentaje Principal", "Resultado Secundario", "Porcentaje Secundario"]
+    ]);
     workbook = xlsx.utils.book_new();
     workbook.SheetNames.push("Respuestas");
   }
@@ -23,10 +23,11 @@ module.exports = function (data) {
   const nuevaFila = [[
     data.nombre,
     data.apellido,
-    data.edad,
     data.cedula,
-    data.curso,
+    data.edad,
     data.unidad,
+    data.curso,
+    data.seccion,
     data.resultado,
     data.porcentaje,
     data.resultadoSecundario,

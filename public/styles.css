@@ -21,7 +21,7 @@ form, .resultado-container {
   box-sizing: border-box;
 }
 
-input[type="text"], input[type="radio"] {
+input[type="text"], input[type="radio"], input[type="number"] {
   margin: 10px 0;
   padding: 8px;
   width: 100%;

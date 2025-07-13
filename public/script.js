@@ -12,10 +12,11 @@ formUsuario.addEventListener("submit", function (e) {
 
   datosEstudiante.nombre = document.querySelector("input[name='nombre']").value;
   datosEstudiante.apellido = document.querySelector("input[name='apellido']").value;
-  datosEstudiante.edad = document.querySelector("input[name='edad']").value;
   datosEstudiante.cedula = document.querySelector("input[name='cedula']").value;
-  datosEstudiante.curso = document.querySelector("input[name='curso']").value;
+  datosEstudiante.edad = document.querySelector("input[name='edad']").value;
   datosEstudiante.unidad = document.querySelector("input[name='unidad']").value;
+  datosEstudiante.curso = document.querySelector("input[name='curso']").value;
+  datosEstudiante.seccion = document.querySelector("input[name='seccion']").value;
 
 
   formUsuario.style.display = "none";
@@ -128,16 +129,16 @@ formTest.addEventListener("submit", async function (e) {
     body: JSON.stringify({
       nombre: datosEstudiante.nombre,
       apellido: datosEstudiante.apellido,
-      edad: datosEstudiante.edad,
       cedula: datosEstudiante.cedula,
-      curso: datosEstudiante.curso,
+      edad: datosEstudiante.edad,
       unidad: datosEstudiante.unidad,
+      curso: datosEstudiante.curso,
+      seccion: datosEstudiante.seccion,
       resultado,
       porcentaje: porcentajePrincipal,
       resultadoSecundario,
       porcentajeSecundario
     })
-
   });
   // Redirigir después de guardar
   window.location.href = "resultado.html";
