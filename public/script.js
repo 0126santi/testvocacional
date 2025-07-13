@@ -132,8 +132,10 @@ formTest.addEventListener("submit", async function (e) {
       unidad: datosEstudiante.unidad,
       resultado,
       porcentaje: porcentajePrincipal,
-      resultadoSecundario
+      resultadoSecundario,
+      porcentajeSecundario
     })
+
   });
   // Redirigir después de guardar
   window.location.href = "resultado.html";
