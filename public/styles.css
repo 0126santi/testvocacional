@@ -89,7 +89,8 @@ form#form-usuario {
 #encabezado-sectel {
   color: #333;
   width: 100vw;
-  margin: 0;
+  margin-right: 20%;
+  margin-left: 20%;
   padding: 16px 0;
   text-align: center;
 }
