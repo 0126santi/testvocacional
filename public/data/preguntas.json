@@ -1,0 +1,1020 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Qué tipo de libros o artículos prefieres leer en tu tiempo libre?",
+    "opciones": {
+      "a": "Ciencia y tecnología.",
+      "b": "Biografías o historias de la vida real.",
+      "c": "Novelas, poesía o ensayos.",
+      "d": "Noticias, política o actualidad social.",
+      "e": "Textos legales o históricos."
+    }
+  },
+  {
+    "id": 2,
+    "pregunta": "Cuando tienes un problema complejo, ¿cómo sueles abordarlo?",
+    "opciones": {
+      "a": "Descomponiéndolo en partes más pequeñas y analizándolas.",
+      "b": "Buscando soluciones creativas o poco convencionales.",
+      "c": "Preguntando a otros para entender sus perspectivas.",
+      "d": "Investigando datos y hechos para tomar una decisión informada.",
+      "e": "Argumentando diferentes puntos de vista."
+    }
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Cuál de las siguientes actividades disfrutas más?",
+    "opciones": {
+      "a": "Diseñar o construir algo.",
+      "b": "Ayudar a personas con sus problemas de salud.",
+      "c": "Enseñar o explicar temas a otros.",
+      "d": "Debatir ideas o participar en grupos de discusión.",
+      "e": "Analizar situaciones desde múltiples ángulos para encontrar la verdad."
+    }
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Qué tipo de clases te resultan más interesantes en el bachillerato?",
+    "opciones": {
+      "a": "Matemáticas, Física, Química.",
+      "b": "Biología, Anatomía, Salud.",
+      "c": "Castellano, Historia, Geografía.",
+      "d": "Sociología, Psicología, Filosofía.",
+      "e": "Moral y Cívica, Derecho Romano."
+    }
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Cómo prefieres aprender información nueva?",
+    "opciones": {
+      "a": "A través de la experimentación práctica y la resolución de problemas.",
+      "b": "Mediante la observación, el estudio de casos y la memorización.",
+      "c": "A través de la interacción, el debate y la colaboración.",
+      "d": "Leyendo, investigando y analizando textos extensos.",
+      "e": "Mediante la discusión de principios y teorías."
+    }
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Cuál es tu reacción cuando te enfrentas a un error o fracaso?",
+    "opciones": {
+      "a": "Analizo qué salió mal para no repetirlo.",
+      "b": "Busco nuevas estrategias o pido ayuda.",
+      "c": "Reflexiono sobre lo aprendido y lo comparto con otros.",
+      "d": "Considero las implicaciones y busco soluciones justas.",
+      "e": "Reviso las normas y procedimientos para identificar la falla."
+    }
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Qué te motiva más en tus estudios?",
+    "opciones": {
+      "a": "El desafío intelectual de resolver problemas complejos.",
+      "b": "La posibilidad de hacer una diferencia positiva en la vida de las personas.",
+      "c": "El deseo de compartir conocimientos y guiar a otros.",
+      "d": "La curiosidad por entender el comportamiento humano y las sociedades.",
+      "e": "La búsqueda de la justicia y la equidad."
+    }
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Qué tipo de ambiente de trabajo te atrae más?",
+    "opciones": {
+      "a": "Un entorno dinámico, con proyectos cambiantes y desafíos técnicos.",
+      "b": "Un ambiente donde pueda interactuar directamente con personas que necesitan ayuda.",
+      "c": "Un espacio colaborativo donde pueda inspirar y formar a otros.",
+      "d": "Un lugar donde pueda investigar, analizar y proponer soluciones a problemas sociales.",
+      "e": "Un entorno estructurado, con reglas claras y procesos bien definidos."
+    }
+  },
+  {
+    "id": 9,
+    "pregunta": "Si tuvieras que elegir un trabajo voluntario, ¿cuál sería?",
+    "opciones": {
+      "a": "Construir o reparar infraestructura.",
+      "b": "Asistir en un hospital o centro de salud.",
+      "c": "Dar clases de apoyo escolar.",
+      "d": "Participar en una organización de derechos humanos.",
+      "e": "Asesorar legalmente a personas de bajos recursos."
+    }
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Cuál de estas frases te describe mejor?",
+    "opciones": {
+      "a": "Soy una persona lógica y me gusta la precisión.",
+      "b": "Soy empático/a y me preocupo por el bienestar de los demás.",
+      "c": "Soy paciente y disfruto guiando a otros.",
+      "d": "Soy curioso/a y me interesa entender las dinámicas sociales.",
+      "e": "Soy analítico/a y me gusta argumentar mis puntos de vista."
+    }
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Disfrutas resolviendo problemas de álgebra o cálculo?",
+    "opciones": {
+      "a": "Mucho.",
+      "b": "Moderadamente.",
+      "c": "Poco.",
+      "d": "Nada."
+    }
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Tienes facilidad para comprender conceptos de física como el movimiento, la energía o la electricidad?",
+    "opciones": {
+      "a": "Mucha.",
+      "b": "Bastante.",
+      "c": "Poca.",
+      "d": "Ninguna."
+    }
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Te gusta desmontar objetos para ver cómo funcionan y armarlos de nuevo?",
+    "opciones": {
+      "a": "Sí, con frecuencia.",
+      "b": "A veces, me da curiosidad.",
+      "c": "Raramente.",
+      "d": "No, prefiero no tocarlos."
+    }
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Te atrae la idea de diseñar planos o maquetas?",
+    "opciones": {
+      "a": "Mucho.",
+      "b": "Algo.",
+      "c": "Poco.",
+      "d": "Nada."
+    }
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Eres bueno/a visualizando objetos en 3D a partir de un plano 2D?",
+    "opciones": {
+      "a": "Muy bueno/a.",
+      "b": "Bueno/a.",
+      "c": "Regular.",
+      "d": "Malo/a."
+    }
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Disfrutas trabajando con herramientas o maquinaria?",
+    "opciones": {
+      "a": "Sí, es algo que me gusta.",
+      "b": "Podría interesarme.",
+      "c": "No mucho.",
+      "d": "Para nada."
+    }
+  },
+  {
+    "id": 17,
+    "pregunta": "¿Te sientes cómodo/a utilizando software de diseño asistido por computadora (CAD) o simulaciones?",
+    "opciones": {
+      "a": "Mucho, me encanta.",
+      "b": "Me gustaría aprender.",
+      "c": "No me llama la atención.",
+      "d": "Me parece muy complicado."
+    }
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Tienes paciencia para realizar cálculos precisos y detallados?",
+    "opciones": {
+      "a": "Mucha.",
+      "b": "Suficiente.",
+      "c": "Poca.",
+      "d": "Ninguna."
+    }
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Te interesa aprender sobre la resistencia de materiales o la termodinámica?",
+    "opciones": {
+      "a": "Mucho.",
+      "b": "Un poco.",
+      "c": "Realmente no.",
+      "d": "Me aburre."
+    }
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Qué tan cómodo/a te sientes con la resolución de ecuaciones diferenciales?",
+    "opciones": {
+      "a": "Muy cómodo/a.",
+      "b": "Cómodo/a.",
+      "c": "Me cuesta.",
+      "d": "No me siento cómodo/a en absoluto."
+    }
+  },
+  {
+    "id": 21,
+    "pregunta": "¿Te gustaría diseñar sistemas eléctricos o electrónicos?",
+    "opciones": {
+      "a": "Sí, es un área que me apasiona.",
+      "b": "Podría ser interesante.",
+      "c": "No es mi principal interés.",
+      "d": "No, para nada."
+    }
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Te ves trabajando en la construcción de edificios, puentes o infraestructuras?",
+    "opciones": {
+      "a": "Definitivamente sí.",
+      "b": "Podría considerarlo.",
+      "c": "No me atrae esa idea.",
+      "d": "Prefiero otras áreas."
+    }
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Te interesa la optimización de procesos industriales o de producción?",
+    "opciones": {
+      "a": "Sí, mucho.",
+      "b": "Algo.",
+      "c": "No realmente.",
+      "d": "No me veo en eso."
+    }
+  },
+  {
+    "id": 24,
+    "pregunta": "¿Te llama la atención la programación y el desarrollo de software?",
+    "opciones": {
+      "a": "Sí, me apasiona.",
+      "b": "Me gustaría aprender más.",
+      "c": "No es lo mío.",
+      "d": "Me parece muy difícil."
+    }
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Disfrutas buscando soluciones innovadoras a problemas técnicos?",
+    "opciones": {
+      "a": "Sí, me encanta.",
+      "b": "Lo encuentro desafiante.",
+      "c": "No es mi fuerte.",
+      "d": "Me frustra."
+    }
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Te interesa cómo funciona el cuerpo humano y sus sistemas?",
+    "opciones": {
+      "a": "Mucho, me fascina.",
+      "b": "Algo, me parece interesante.",
+      "c": "Poco, no es mi tema.",
+      "d": "Nada, me parece aburrido."
+    }
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Te sientes cómodo/a estudiando temas como la anatomía, la fisiología o la bioquímica?",
+    "opciones": {
+      "a": "Muy cómodo/a.",
+      "b": "Cómodo/a.",
+      "c": "Me cuesta un poco.",
+      "d": "Me resulta difícil."
+    }
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Tienes paciencia y empatía para tratar con personas en situaciones vulnerables o de enfermedad?",
+    "opciones": {
+      "a": "Mucha, es algo natural en mí.",
+      "b": "Sí, puedo manejarlo.",
+      "c": "Me cuesta un poco.",
+      "d": "No soy muy paciente."
+    }
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Eres bueno/a memorizando grandes cantidades de información?",
+    "opciones": {
+      "a": "Muy bueno/a.",
+      "b": "Bueno/a.",
+      "c": "Regular.",
+      "d": "Malo/a."
+    }
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Te atrae la idea de realizar investigaciones científicas o experimentos en un laboratorio?",
+    "opciones": {
+      "a": "Sí, mucho.",
+      "b": "Podría interesarme.",
+      "c": "No es mi prioridad.",
+      "d": "No, para nada."
+    }
+  },
+  {
+    "id": 31,
+    "pregunta": "¿Te visualizas trabajando en un hospital, clínica o centro de salud?",
+    "opciones": {
+      "a": "Sí, es mi sueño.",
+      "b": "Es una opción que considero.",
+      "c": "No me veo en ese ambiente.",
+      "d": "Me sentiría incómodo/a."
+    }
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Qué tan cómodo/a te sientes con la vista de sangre o heridas?",
+    "opciones": {
+      "a": "Muy cómodo/a, no me afecta.",
+      "b": "Cómodo/a, puedo manejarlo.",
+      "c": "Me genera un poco de impresión.",
+      "d": "Me incomoda mucho."
+    }
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Te interesa aprender sobre farmacología y los efectos de los medicamentos?",
+    "opciones": {
+      "a": "Sí, mucho.",
+      "b": "Algo.",
+      "c": "Poco.",
+      "d": "Nada."
+    }
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Estás dispuesto/a a dedicar muchos años a estudiar y actualizarte constantemente?",
+    "opciones": {
+      "a": "Completamente dispuesto/a.",
+      "b": "Sí, lo entiendo.",
+      "c": "Me da un poco de pereza.",
+      "d": "No estoy dispuesto/a."
+    }
+  },
+  {
+    "id": 35,
+    "pregunta": "¿Tienes capacidad para trabajar bajo presión y tomar decisiones rápidas en situaciones críticas?",
+    "opciones": {
+      "a": "Sí, me desenvuelvo bien.",
+      "b": "Puedo manejarlo.",
+      "c": "Me genera estrés.",
+      "d": "Me cuesta mucho."
+    }
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Te interesa la promoción de la salud y la prevención de enfermedades en la comunidad?",
+    "opciones": {
+      "a": "Sí, mucho.",
+      "b": "Un poco.",
+      "c": "No es mi principal interés.",
+      "d": "No me llama la atención."
+    }
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Qué tan importante es para ti el servicio a los demás en tu futura profesión?",
+    "opciones": {
+      "a": "Es lo más importante.",
+      "b": "Muy importante.",
+      "c": "Algo importante.",
+      "d": "No es mi prioridad."
+    }
+  },
+  {
+    "id": 38,
+    "pregunta": "¿Disfrutas leyendo sobre avances médicos o descubrimientos científicos?",
+    "opciones": {
+      "a": "Sí, con frecuencia.",
+      "b": "A veces.",
+      "c": "Raramente.",
+      "d": "Nunca."
+    }
+  },
+  {
+    "id": 39,
+    "pregunta": "¿Te ves realizando procedimientos médicos o asistiendo en cirugías?",
+    "opciones": {
+      "a": "Sí, es algo que me atrae.",
+      "b": "Podría acostumbrarme.",
+      "c": "No me siento cómodo/a con eso.",
+      "d": "Me genera rechazo."
+    }
+  },
+  {
+    "id": 40,
+    "pregunta": "¿Qué tan buena es tu memoria para recordar detalles específicos de información biológica o médica?",
+    "opciones": {
+      "a": "Excelente.",
+      "b": "Buena.",
+      "c": "Regular.",
+      "d": "Pobre."
+    }
+  },
+  {
+    "id": 41,
+    "pregunta": "¿Disfrutas explicando temas a otras personas, especialmente si les cuesta entender?",
+    "opciones": {
+      "a": "Mucho, me siento cómodo/a.",
+      "b": "Sí, a veces lo hago.",
+      "c": "Poco, me frustro.",
+      "d": "No, no me gusta."
+    }
+  },
+  {
+    "id": 42,
+    "pregunta": "¿Tienes paciencia para trabajar con niños, adolescentes o adultos en proceso de aprendizaje?",
+    "opciones": {
+      "a": "Mucha, es algo natural en mí.",
+      "b": "Suficiente.",
+      "c": "Poca.",
+      "d": "No soy paciente."
+    }
+  },
+  {
+    "id": 43,
+    "pregunta": "¿Te atrae la idea de diseñar actividades o materiales didácticos?",
+    "opciones": {
+      "a": "Sí, me parece divertido.",
+      "b": "Podría intentarlo.",
+      "c": "No es algo que me apasione.",
+      "d": "Me resulta complicado."
+    }
+  },
+  {
+    "id": 44,
+    "pregunta": "¿Eres creativo/a al buscar formas diferentes de enseñar un mismo concepto?",
+    "opciones": {
+      "a": "Muy creativo/a.",
+      "b": "Bastante creativo/a.",
+      "c": "Regular.",
+      "d": "No mucho."
+    }
+  },
+  {
+    "id": 45,
+    "pregunta": "¿Te sientes cómodo/a hablando en público o frente a un grupo de personas?",
+    "opciones": {
+      "a": "Muy cómodo/a.",
+      "b": "Cómodo/a.",
+      "c": "Me genera algo de nerviosismo.",
+      "d": "Me siento muy incómodo/a."
+    }
+  },
+  {
+    "id": 46,
+    "pregunta": "¿Te interesa aprender sobre psicología del desarrollo o pedagogía?",
+    "opciones": {
+      "a": "Sí, mucho.",
+      "b": "Un poco.",
+      "c": "No realmente.",
+      "d": "Me aburre."
+    }
+  },
+  {
+    "id": 47,
+    "pregunta": "¿Qué tan importante es para ti contribuir al desarrollo intelectual de los demás?",
+    "opciones": {
+      "a": "Es lo más importante.",
+      "b": "Muy importante.",
+      "c": "Algo importante.",
+      "d": "No es mi prioridad."
+    }
+  },
+  {
+    "id": 48,
+    "pregunta": "¿Te visualizas trabajando en un aula de clases, una institución educativa o desarrollando programas de formación?",
+    "opciones": {
+      "a": "Sí, es algo que me atrae mucho.",
+      "b": "Es una opción que considero.",
+      "c": "No me veo en ese ambiente.",
+      "d": "Prefiero otras áreas."
+    }
+  },
+  {
+    "id": 49,
+    "pregunta": "¿Disfrutas organizando eventos o actividades para grupos?",
+    "opciones": {
+      "a": "Sí, me encanta.",
+      "b": "Me gusta, pero a veces me cansa.",
+      "c": "No es algo que disfrute.",
+      "d": "No, no me gusta."
+    }
+  },
+  {
+    "id": 50,
+    "pregunta": "¿Tienes la capacidad de motivar a otros y despertar su interés por aprender?",
+    "opciones": {
+      "a": "Sí, creo que sí.",
+      "b": "A veces lo logro.",
+      "c": "Me cuesta un poco.",
+      "d": "No soy muy bueno/a en eso."
+    }
+  },
+  {
+    "id": 51,
+    "pregunta": "¿Te interesa la historia de la educación o las diferentes metodologías de enseñanza?",
+    "opciones": {
+      "a": "Sí, me parece fascinante.",
+      "b": "Un poco.",
+      "c": "No mucho.",
+      "d": "Nada."
+    }
+  },
+  {
+    "id": 52,
+    "pregunta": "¿Te ves trabajando con personas de diferentes edades y trasfondos?",
+    "opciones": {
+      "a": "Sí, me atrae la diversidad.",
+      "b": "Me adapto fácilmente.",
+      "c": "Preferiría un público específico.",
+      "d": "Me resultaría difícil."
+    }
+  },
+  {
+    "id": 53,
+    "pregunta": "¿Tienes paciencia para corregir trabajos y dar retroalimentación constructiva?",
+    "opciones": {
+      "a": "Mucha paciencia.",
+      "b": "Suficiente.",
+      "c": "Poca.",
+      "d": "No soy muy paciente para eso."
+    }
+  },
+  {
+    "id": 54,
+    "pregunta": "¿Te interesa el uso de la tecnología como herramienta educativa?",
+    "opciones": {
+      "a": "Sí, me parece fundamental.",
+      "b": "Podría aprender a usarla.",
+      "c": "No es algo que me apasione.",
+      "d": "No me gusta mucho."
+    }
+  },
+  {
+    "id": 55,
+    "pregunta": "¿Disfrutas planificando y estructurando clases o cursos?",
+    "opciones": {
+      "a": "Sí, me gusta organizar.",
+      "b": "Lo hago si es necesario.",
+      "c": "Me resulta tedioso.",
+      "d": "No, no me gusta planificar."
+    }
+  },
+  {
+    "id": 56,
+    "pregunta": "¿Disfrutas leyendo textos largos y complejos, como leyes o documentos históricos?",
+    "opciones": {
+      "a": "Mucho, me resulta interesante.",
+      "b": "Moderadamente, si el tema me atrae.",
+      "c": "Poco, me canso fácilmente.",
+      "d": "Nada, me parece aburrido."
+    }
+  },
+  {
+    "id": 57,
+    "pregunta": "¿Tienes facilidad para analizar y comprender argumentos lógicos?",
+    "opciones": {
+      "a": "Mucha.",
+      "b": "Bastante.",
+      "c": "Poca.",
+      "d": "Ninguna."
+    }
+  },
+  {
+    "id": 58,
+    "pregunta": "¿Te gusta debatir ideas y defender tu punto de vista con argumentos sólidos?",
+    "opciones": {
+      "a": "Sí, me encanta debatir.",
+      "b": "A veces, si el tema me apasiona.",
+      "c": "No mucho, prefiero escuchar.",
+      "d": "No, no me gusta discutir."
+    }
+  },
+  {
+    "id": 59,
+    "pregunta": "¿Eres bueno/a identificando inconsistencias o fallas en un razonamiento?",
+    "opciones": {
+      "a": "Muy bueno/a.",
+      "b": "Bueno/a.",
+      "c": "Regular.",
+      "d": "Malo/a."
+    }
+  },
+  {
+    "id": 60,
+    "pregunta": "¿Te interesa la historia del derecho o los sistemas legales de otros países?",
+    "opciones": {
+      "a": "Sí, mucho.",
+      "b": "Un poco.",
+      "c": "Realmente no.",
+      "d": "Me aburre."
+    }
+  },
+  {
+    "id": 61,
+    "pregunta": "¿Te visualizas trabajando en un tribunal, un bufete de abogados o asesorando legalmente a empresas o personas?",
+    "opciones": {
+      "a": "Sí, es algo que me atrae.",
+      "b": "Es una opción que considero.",
+      "c": "No me veo en ese ambiente.",
+      "d": "Prefiero otras áreas."
+    }
+  },
+  {
+    "id": 62,
+    "pregunta": "¿Qué tan importante es para ti la justicia y la equidad en la sociedad?",
+    "opciones": {
+      "a": "Es lo más importante.",
+      "b": "Muy importante.",
+      "c": "Algo importante.",
+      "d": "No es mi prioridad."
+    }
+  },
+  {
+    "id": 63,
+    "pregunta": "¿Tienes la capacidad de mantener la calma y la objetividad en situaciones de conflicto?",
+    "opciones": {
+      "a": "Sí, me mantengo muy calmado/a.",
+      "b": "Puedo manejarlo.",
+      "c": "Me genera algo de estrés.",
+      "d": "Me cuesta mucho."
+    }
+  },
+  {
+    "id": 64,
+    "pregunta": "¿Disfrutas investigando y recopilando información para apoyar un caso o un argumento?",
+    "opciones": {
+      "a": "Sí, me encanta investigar.",
+      "b": "Lo hago si es necesario.",
+      "c": "Me resulta tedioso.",
+      "d": "No, no me gusta investigar."
+    }
+  },
+  {
+    "id": 65,
+    "pregunta": "¿Te atrae la idea de representar los intereses de otras personas o entidades?",
+    "opciones": {
+      "a": "Sí, es algo que me motiva.",
+      "b": "Podría interesarme.",
+      "c": "No es mi principal interés.",
+      "d": "No, prefiero trabajar solo/a."
+    }
+  },
+  {
+    "id": 66,
+    "pregunta": "¿Estás dispuesto/a a estudiar leyes y códigos durante muchos años?",
+    "opciones": {
+      "a": "Completamente dispuesto/a.",
+      "b": "Sí, lo entiendo.",
+      "c": "Me da un poco de pereza.",
+      "d": "No estoy dispuesto/a."
+    }
+  },
+  {
+    "id": 67,
+    "pregunta": "¿Qué tan buena es tu memoria para recordar artículos, leyes o jurisprudencia?",
+    "opciones": {
+      "a": "Excelente.",
+      "b": "Buena.",
+      "c": "Regular.",
+      "d": "Pobre."
+    }
+  },
+  {
+    "id": 68,
+    "pregunta": "¿Te ves redactando documentos legales o contratos?",
+    "opciones": {
+      "a": "Sí, me siento cómodo/a con eso.",
+      "b": "Podría aprender.",
+      "c": "No es algo que me atraiga.",
+      "d": "Me parece muy complicado."
+    }
+  },
+  {
+    "id": 69,
+    "pregunta": "¿Disfrutas participando en simulacros de juicio o debates?",
+    "opciones": {
+      "a": "Sí, me encanta.",
+      "b": "Me gusta, pero me genera nervios.",
+      "c": "No es algo que disfrute.",
+      "d": "No, no me gusta."
+    }
+  },
+  {
+    "id": 70,
+    "pregunta": "¿Tienes facilidad para la expresión oral y escrita con precisión y claridad?",
+    "opciones": {
+      "a": "Mucha.",
+      "b": "Bastante.",
+      "c": "Poca.",
+      "d": "Ninguna."
+    }
+  },
+  {
+    "id": 71,
+    "pregunta": "¿Te interesa entender cómo funcionan las sociedades, las culturas y el comportamiento humano?",
+    "opciones": {
+      "a": "Mucho, me fascina.",
+      "b": "Algo, me parece interesante.",
+      "c": "Poco, no es mi tema.",
+      "d": "Nada, me parece aburrido."
+    }
+  },
+  {
+    "id": 72,
+    "pregunta": "¿Disfrutas leyendo sobre historia, sociología, psicología o antropología?",
+    "opciones": {
+      "a": "Sí, mucho.",
+      "b": "Un poco.",
+      "c": "Realmente no.",
+      "d": "Me aburre."
+    }
+  },
+  {
+    "id": 73,
+    "pregunta": "¿Te gusta analizar problemas sociales y buscar soluciones?",
+    "opciones": {
+      "a": "Sí, me apasiona.",
+      "b": "Lo encuentro desafiante.",
+      "c": "No es mi fuerte.",
+      "d": "Me frustra."
+    }
+  },
+  {
+    "id": 74,
+    "pregunta": "¿Tienes facilidad para la investigación y el análisis de datos (cualitativos y cuantitativos)?",
+    "opciones": {
+      "a": "Mucha.",
+      "b": "Bastante.",
+      "c": "Poca.",
+      "d": "Ninguna."
+    }
+  },
+  {
+    "id": 75,
+    "pregunta": "¿Te sientes cómodo/a entrevistando a personas o realizando encuestas?",
+    "opciones": {
+      "a": "Muy cómodo/a.",
+      "b": "Cómodo/a.",
+      "c": "Me genera algo de nerviosismo.",
+      "d": "Me siento muy incómodo/a."
+    }
+  },
+  {
+    "id": 76,
+    "pregunta": "¿Te atrae la idea de trabajar en ONGs, instituciones gubernamentales o centros de investigación social?",
+    "opciones": {
+      "a": "Sí, es algo que me motiva.",
+      "b": "Podría considerarlo.",
+      "c": "No me veo en ese ambiente.",
+      "d": "Prefiero otras áreas."
+    }
+  },
+  {
+    "id": 77,
+    "pregunta": "¿Qué tan importante es para ti la diversidad cultural y el respeto por las diferencias?",
+    "opciones": {
+      "a": "Es lo más importante.",
+      "b": "Muy importante.",
+      "c": "Algo importante.",
+      "d": "No es mi prioridad."
+    }
+  },
+  {
+    "id": 78,
+    "pregunta": "¿Tienes capacidad para trabajar en equipo y colaborar con personas de diferentes opiniones?",
+    "opciones": {
+      "a": "Sí, me desenvuelvo muy bien.",
+      "b": "Puedo manejarlo.",
+      "c": "Me cuesta un poco.",
+      "d": "Prefiero trabajar solo/a."
+    }
+  },
+  {
+    "id": 79,
+    "pregunta": "¿Te interesa la política, las relaciones internacionales o el desarrollo comunitario?",
+    "opciones": {
+      "a": "Sí, mucho.",
+      "b": "Un poco.",
+      "c": "No realmente.",
+      "d": "Me aburre."
+    }
+  },
+  {
+    "id": 80,
+    "pregunta": "¿Disfrutas escribiendo ensayos o informes basados en investigaciones?",
+    "opciones": {
+      "a": "Sí, me gusta organizar mis ideas.",
+      "b": "Lo hago si es necesario.",
+      "c": "Me resulta tedioso.",
+      "d": "No, no me gusta escribir."
+    }
+  },
+  {
+    "id": 81,
+    "pregunta": "¿Te ves trabajando en proyectos que busquen mejorar la calidad de vida de grupos vulnerables?",
+    "opciones": {
+      "a": "Definitivamente sí.",
+      "b": "Podría considerarlo.",
+      "c": "No me atrae esa idea.",
+      "d": "Prefiero otras áreas."
+    }
+  },
+  {
+    "id": 82,
+    "pregunta": "¿Qué tan buena es tu capacidad de observación para entender las dinámicas sociales?",
+    "opciones": {
+      "a": "Excelente.",
+      "b": "Buena.",
+      "c": "Regular.",
+      "d": "Pobre."
+    }
+  },
+  {
+    "id": 83,
+    "pregunta": "¿Te interesa aprender sobre teorías económicas o sistemas políticos?",
+    "opciones": {
+      "a": "Sí, mucho.",
+      "b": "Un poco.",
+      "c": "No mucho.",
+      "d": "Nada."
+    }
+  },
+  {
+    "id": 84,
+    "pregunta": "¿Disfrutas participando en debates o discusiones sobre temas de actualidad social?",
+    "opciones": {
+      "a": "Sí, me encanta.",
+      "b": "Me gusta, pero a veces me cansa.",
+      "c": "No es algo que disfrute.",
+      "d": "No, no me gusta."
+    }
+  },
+  {
+    "id": 85,
+    "pregunta": "¿Tienes facilidad para interpretar gráficos, estadísticas o encuestas?",
+    "opciones": {
+      "a": "Mucha.",
+      "b": "Bastante.",
+      "c": "Poca.",
+      "d": "Ninguna."
+    }
+  },
+  {
+    "id": 86,
+    "pregunta": "¿Qué tipo de proyectos de bachillerato te gustaron más?",
+    "opciones": {
+      "a": "Aquellos que involucraban investigación y experimentación.",
+      "b": "Los que requerían ayudar a otros o trabajar en equipo.",
+      "c": "Proyectos creativos o de expresión.",
+      "d": "Aquellos que implicaban análisis crítico y debate.",
+      "e": "Los que requerían resolver problemas prácticos con cálculos."
+    }
+  },
+  {
+    "id": 87,
+    "pregunta": "Si pudieras diseñar tu materia ideal en la universidad, ¿qué incluiría?",
+    "opciones": {
+      "a": "Laboratorios, diseño y resolución de problemas técnicos.",
+      "b": "Estudio del cuerpo humano, enfermedades y tratamientos.",
+      "c": "Estrategias de enseñanza, psicología educativa y prácticas docentes.",
+      "d": "Análisis de leyes, casos judiciales y sistemas políticos.",
+      "e": "Investigación social, teorías de comportamiento y dinámicas comunitarias."
+    }
+  },
+  {
+    "id": 88,
+    "pregunta": "¿Qué tan importante es para ti tener un salario alto en tu futura profesión?",
+    "opciones": {
+      "a": "Muy importante.",
+      "b": "Importante.",
+      "c": "Algo importante.",
+      "d": "Poco importante."
+    }
+  },
+  {
+    "id": 89,
+    "pregunta": "¿Prefieres una carrera con horarios fijos o con flexibilidad y turnos variados?",
+    "opciones": {
+      "a": "Horarios fijos y estructurados.",
+      "b": "Flexibilidad, incluso si implica turnos.",
+      "c": "Me da igual."
+    }
+  },
+  {
+    "id": 90,
+    "pregunta": "¿Estás dispuesto/a a trabajar bajo presión y en situaciones de alta responsabilidad?",
+    "opciones": {
+      "a": "Sí, sin problema.",
+      "b": "Puedo manejarlo.",
+      "c": "Me genera ansiedad.",
+      "d": "No, prefiero evitarlo."
+    }
+  },
+  {
+    "id": 91,
+    "pregunta": "¿Qué te atrae más de una profesión?",
+    "opciones": {
+      "a": "La innovación y el desarrollo tecnológico.",
+      "b": "La capacidad de sanar y cuidar a otros.",
+      "c": "La oportunidad de transformar vidas a través del conocimiento.",
+      "d": "La defensa de la justicia y los derechos.",
+      "e": "La comprensión de las complejidades humanas y sociales."
+    }
+  },
+  {
+    "id": 92,
+    "pregunta": "¿Cómo te sientes acerca de la idea de realizar pasantías o prácticas profesionales durante tus estudios?",
+    "opciones": {
+      "a": "Muy entusiasmado/a, creo que es vital.",
+      "b": "Me parece una buena idea.",
+      "c": "No me llama mucho la atención.",
+      "d": "Preferiría enfocarme solo en la teoría."
+    }
+  },
+  {
+    "id": 93,
+    "pregunta": "¿Qué tan abierto/a estás a la idea de continuar tus estudios con posgrados o especializaciones después de graduarte?",
+    "opciones": {
+      "a": "Muy abierto/a, lo veo como parte del camino.",
+      "b": "Podría considerarlo en el futuro.",
+      "c": "Prefiero terminar y empezar a trabajar.",
+      "d": "No me veo estudiando más."
+    }
+  },
+  {
+    "id": 94,
+    "pregunta": "¿Qué importancia le das a la posibilidad de viajar o trabajar en el extranjero en tu futura carrera?",
+    "opciones": {
+      "a": "Muy importante.",
+      "b": "Importante.",
+      "c": "Poco importante.",
+      "d": "Nada importante."
+    }
+  },
+  {
+    "id": 95,
+    "pregunta": "Si pudieras elegir un proyecto de investigación para tu carrera, ¿cuál sería?",
+    "opciones": {
+      "a": "Desarrollar un nuevo material resistente.",
+      "b": "Investigar una nueva cura para una enfermedad.",
+      "c": "Estudiar métodos innovadores de enseñanza.",
+      "d": "Analizar el impacto de una ley en la sociedad.",
+      "e": "Explorar las causas de un fenómeno social."
+    }
+  },
+  {
+    "id": 96,
+    "pregunta": "¿Te visualizas trabajando en un equipo multidisciplinario con profesionales de otras áreas?",
+    "opciones": {
+      "a": "Sí, me encanta colaborar.",
+      "b": "Me siento cómodo/a en equipos.",
+      "c": "Prefiero trabajar de forma individual.",
+      "d": "No me gusta trabajar en equipo."
+    }
+  },
+  {
+    "id": 97,
+    "pregunta": "¿Qué tan importante es para ti la estabilidad laboral en tu futura profesión?",
+    "opciones": {
+      "a": "Muy importante.",
+      "b": "Importante.",
+      "c": "Algo importante.",
+      "d": "Poco importante."
+    }
+  },
+  {
+    "id": 98,
+    "pregunta": "¿Qué tipo de desafíos te atraen más?",
+    "opciones": {
+      "a": "Desafíos técnicos y de ingeniería.",
+      "b": "Desafíos relacionados con la salud y el bienestar.",
+      "c": "Desafíos educativos y de formación.",
+      "d": "Desafíos legales y de justicia.",
+      "e": "Desafíos sociales y de investigación."
+    }
+  },
+  {
+    "id": 99,
+    "pregunta": "¿Qué esperas obtener de tu experiencia universitaria?",
+    "opciones": {
+      "a": "Conocimientos y habilidades técnicas sólidas.",
+      "b": "La capacidad de ayudar y servir a la comunidad.",
+      "c": "Herramientas para inspirar y moldear futuras generaciones.",
+      "d": "Una comprensión profunda del sistema legal y la habilidad para aplicarlo.",
+      "e": "Perspectivas amplias sobre la sociedad y sus problemáticas."
+    }
+  },
+  {
+    "id": 100,
+    "pregunta": "Pensando en tu futuro profesional, ¿cuál de estas palabras resuena más contigo?",
+    "opciones": {
+      "a": "Crear.",
+      "b": "Sanar.",
+      "c": "Enseñar.",
+      "d": "Defender.",
+      "e": "Comprender."
+    }
+  }
+]
+
+

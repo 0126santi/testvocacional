@@ -1,0 +1,17 @@
+{
+  "name": "testvocacional",
+  "version": "1.0.0",
+  "description": "Aplicación de test vocacional (frontend + API) que guarda resultados en un archivo Excel usando Node.js, Express y xlsx.",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "node server/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": ["vocacional", "node", "express", "excel"],
+  "dependencies": {
+    "express": "^5.1.0",
+    "xlsx": "^0.18.5"
+  }
+}

@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Env
+.env
+.env.*
+
+# Excel generado por la aplicación
+resultados.xlsx
+
+# Sistema operativo / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Coverage / build (si se agregan en el futuro)
+coverage/
+dist/
