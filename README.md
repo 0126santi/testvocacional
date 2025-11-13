@@ -62,6 +62,3 @@ No se versiona (`resultados.xlsx` está en `.gitignore`). Se crea automáticamen
 
 ## Licencia
 ISC (puedes adaptarla si lo deseas).
-
----
-Hecho para fines demostrativos como parte de tu portafolio.
