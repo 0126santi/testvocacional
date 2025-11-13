@@ -59,6 +59,3 @@ No se versiona (`resultados.xlsx` está en `.gitignore`). Se crea automáticamen
 - Prevención de múltiples envíos.
 - Exportación a PDF.
 - Reemplazar almacenamiento en Excel por base de datos.
-
-## Licencia
-ISC (puedes adaptarla si lo deseas).
